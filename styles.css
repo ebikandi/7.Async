@@ -1,0 +1,70 @@
+/* Estructura de la página */
+body {
+  background-color: #000000;
+}
+
+#main {
+  width: 1024px;
+  padding: 3px;
+  border: 4px solid white;
+  margin: 0 auto;
+}
+
+#header {
+  height: 32px;
+  line-height: 26px;
+  background-color: #1677ed;
+  font-size: 20px;
+  padding: 2px;
+}
+
+#indicator {
+  float: right;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+/* RSS news */
+#feeds {
+  height: 600px;
+  position: relative;
+  background: #48b3f2;
+  padding: 0 0 0 10px;
+}
+
+#news,
+#footer {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: auto;
+  left: 0px;
+}
+
+#news {
+  top: 0px;
+}
+
+#footer {
+  top: -600px;
+}
+
+/* Pie de la página */
+
+#controls {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #1677ed;
+  text-align: center;
+}
+
+#controls input {
+  width: 100px;
+  color: #000000;
+  font-size: 10px;
+  background-color: #89d393;
+}
+
+#controls select {
+  background-color: #89d393;
+}
